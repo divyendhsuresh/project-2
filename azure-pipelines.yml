@@ -5,7 +5,6 @@
 
 trigger:
 - master
-
 pool:
  name: AGT-POOL-DEMO-NONPROD
  demands:
