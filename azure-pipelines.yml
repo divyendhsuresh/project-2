@@ -5,10 +5,11 @@
 
 trigger:
 - master
+
 pool:
- name: AGT-POOL-DEMO-NONPROD
- demands:
-  -agentName -equals divyendh
+  name: AGT-POOL-DEMO-NONPROD
+  demands:
+  - agentName -equals divyendh
 steps:
 - task: SonarQubePrepare@5
   inputs:
